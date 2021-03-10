@@ -54,12 +54,17 @@ img {
     
 }
 
+#navbar .social {
+    margin-right: 50px;
+}
+
 #navbar ul li a {
     margin: 0 10px;
     color: #fff;
     padding: 1rem;
     border-bottom: 1px solid #0051f2;
 }
+
 
 #navbar ul li a.current {
     background-color: #0051f2;
@@ -88,6 +93,7 @@ img {
     width: 100%;
     height: 100%;
     opacity: 0.4;
+    z-index: 0;
 }
 
 #showcase .showcase-container {
@@ -104,5 +110,6 @@ img {
 
 #showcase .showcase-container p {
     font-size: 1.7rem;
+    margin-bottom: 2rem;
 }
 
