@@ -22,3 +22,11 @@
     border: 2px solid #000;
     opacity: 0.7;
 }
+
+/* backgrounds */
+
+.bg-dark {
+    background: #242424;
+    color: #fff;
+}
+

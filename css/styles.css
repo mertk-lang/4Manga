@@ -113,3 +113,30 @@ img {
     margin-bottom: 2rem;
 }
 
+
+/* News */
+
+#articles .articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+#articles .articles-container .article:nth-child(1) {
+    grid-column: 1 / span 2;
+    gap: 1rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 2fr 1fr);
+}
+
+#articles .articles-container .article:nth-child(7) {
+    display: grid;
+    grid-column: 2 / 4;
+    gap: 1rem;
+    align-items: center;
+}
+
+#articles .articles-container .article {
+    padding: 20px;
+}
