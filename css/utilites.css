@@ -23,10 +23,27 @@
     opacity: 0.7;
 }
 
+.btn-light {
+    background: #fff;
+    color: #000;
+    z-index: 2;
+    display: inline-block;
+    padding: 0.50rem 1rem;
+    border: none;
+}
+
+.btn-light:hover {
+    background: #333;
+    transition: 0.5s;
+    border: 2px solid #000;
+    opacity: 1;
+    color: #fff
+}
+
 /* backgrounds */
 
 .bg-dark {
-    background: #242424;
+    background: rgba(37, 37, 37, 0.459);
     color: #fff;
 }
 
